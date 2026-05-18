@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Farmer Direct Organic — Sales Line Sheet</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #373535;
+    line-height: 1.6;
+    background: #ffffff;
+}
+
+.container {
+    max-width: 480px;
+    margin: 0 auto;
+    padding: 20px 16px;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    padding: 20px 0 16px;
+    border-bottom: 2px solid #B4282C;
+    margin-bottom: 24px;
+}
+
+.header img {
+    width: 140px;
+    height: auto;
+    margin-bottom: 8px;
+}
+
+.header .tagline {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    color: #B4282C;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+/* Section headers */
+.section-header {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #373535;
+    margin: 24px 0 12px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #B4282C;
+}
+
+/* Attributes */
+.attribute-list {
+    text-align: center;
+    padding: 16px 0;
+}
+
+.attribute-item {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.attribute-item .red { color: #B4282C; }
+
+.attribute-sub {
+    font-size: 10px;
+    font-style: italic;
+    color: #666;
+    margin-top: -4px;
+    margin-bottom: 8px;
+}
+
+.channel-badge {
+    display: inline-block;
+    background: #B4282C;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 6px 16px;
+    border-radius: 4px;
+    margin-top: 16px;
+}
+
+/* Product tables */
+.sku-section-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    color: #B4282C;
+    margin: 16px 0 8px;
+}
+
+.sku-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+
+.sku-table th {
+    background: #B4282C;
+    color: white;
+    padding: 8px 10px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 11px;
+}
+
+.sku-table td {
+    padding: 8px 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.sku-table tr:nth-child(even) td {
+    background: #f9f6f3;
+}
+
+/* Merch info */
+.merch-box {
+    background: #f9f6f3;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    padding: 14px;
+    margin: 16px 0;
+    font-size: 11px;
+}
+
+.merch-box strong { color: #373535; }
+
+.merch-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.merch-row:last-child { border-bottom: none; }
+
+.merch-label { font-weight: 600; }
+
+/* Sales points */
+.sales-point {
+    background: #f9f6f3;
+    border-left: 4px solid #B4282C;
+    padding: 12px 14px;
+    margin-bottom: 12px;
+    border-radius: 0 6px 6px 0;
+}
+
+.sales-point h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: #B4282C;
+    margin-bottom: 4px;
+}
+
+.sales-point p {
+    font-size: 11px;
+    line-height: 1.5;
+}
+
+/* CTA */
+.cta-box {
+    background: #B4282C;
+    color: white;
+    padding: 16px;
+    text-align: center;
+    border-radius: 8px;
+    margin: 24px 0 16px;
+}
+
+.cta-box h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.cta-box p {
+    font-size: 11px;
+    line-height: 1.6;
+}
+
+.cta-box a {
+    color: white;
+    text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    font-size: 9px;
+    color: #999;
+    padding: 16px 0;
+    border-top: 1px solid #e0e0e0;
+    margin-top: 20px;
+}
+
+.footer .company { font-weight: 600; color: #666; }
+
+/* Last updated badge */
+.updated-badge {
+    text-align: center;
+    font-size: 9px;
+    color: #999;
+    margin-top: 8px;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+
+    <!-- HEADER -->
+    <div class="header">
+        <img src="assets/fdo-logo.png" alt="Farmer Direct Organic">
+        <div class="tagline">KeHE Sales Team Line Sheet</div>
+    </div>
+
+    <!-- BRAND ATTRIBUTES -->
+    <div class="section-header">Brand Attributes</div>
+    <div class="attribute-list">
+        <div class="attribute-item"><span class="red">100%</span> Farmer-Owned</div>
+        <div class="attribute-item"><span class="red">100%</span> Certified Organic Product Line</div>
+        <div class="attribute-sub">(Organic is all we do)</div>
+        <div class="attribute-item"><span class="red">100%</span> Tested Clean Certified</div>
+        <div class="attribute-sub">(to glyphosate &amp; 200+ other pesticides)</div>
+        <div class="attribute-item"><span class="red">100%</span> Traceable</div>
+        <div class="attribute-sub">(Back to the Family Farm that grew the grain)</div>
+        <div class="attribute-item"><span class="red">100%</span> Plastic Neutral Certified</div>
+        <div class="attribute-item"><span class="red">100%</span> Kosher Certified</div>
+        <div class="attribute-item">Regenerative Organic Certified</div>
+        <div class="attribute-sub">(select 25-lb bulk SKUs)</div>
+        <div class="attribute-item">Gluten Free Certified</div>
+        <div class="attribute-sub">(select FDO branded 1lb SKUs)</div>
+        <div class="channel-badge">Available Nationally Through KeHE Exclusively</div>
+    </div>
+
+    <!-- PRODUCT LINE -->
+    <div class="section-header">Product Line — 25-lb Bulk SKUs</div>
+    <p style="font-size:10px; color:#666; margin-bottom:12px; text-align:center;">KeHE Vendor ESN 2220136 &middot; Effective May 17, 2026</p>
+
+    <div class="sku-section-title">Regenerative Organic Certified (6)</div>
+    <table class="sku-table">
+        <tr><th>Item</th><th>UPC</th></tr>
+        <tr><td>ROC + Organic French Green Lentils</td><td>8 81964 00004 2</td></tr>
+        <tr><td>ROC + Organic Split Red Lentils</td><td>8 81964 00021 9</td></tr>
+        <tr><td>ROC + Organic Quick Rolled Oats</td><td>8 81964 00008 0</td></tr>
+        <tr><td>ROC + Organic Regular Rolled Oats</td><td>8 81964 00084 4</td></tr>
+        <tr><td>ROC + Organic Old Fashioned Thick Rolled Oats</td><td>8 81964 00090 5</td></tr>
+        <tr><td>ROC + Organic Steel Cut Oats</td><td>8 81964 00091 2</td></tr>
+    </table>
+
+    <div class="sku-section-title">Certified Organic (6)</div>
+    <table class="sku-table">
+        <tr><th>Item</th><th>UPC</th></tr>
+        <tr><td>Organic Large Green Lentils</td><td>8 81964 00003 5</td></tr>
+        <tr><td>Organic Black Lentils</td><td>8 81964 00005 9</td></tr>
+        <tr><td>Organic Whole Red Lentils</td><td>8 81964 00026 4</td></tr>
+        <tr><td>Organic Pinto Beans</td><td>8 81964 00010 3</td></tr>
+        <tr><td>Organic Black Beans</td><td>8 81964 00015 8</td></tr>
+        <tr><td>Organic Chickpeas</td><td>8 81964 00024 0</td></tr>
+    </table>
+
+    <!-- MERCHANDISING -->
+    <div class="merch-box">
+        <div class="merch-row"><span class="merch-label">Case Pack</span><span>1 x 25 LB Bag</span></div>
+        <div class="merch-row"><span class="merch-label">Shelf Life</span><span>24 Months (Ambient)</span></div>
+        <div class="merch-row"><span class="merch-label">Storage</span><span>Cool, dry. No refrigeration.</span></div>
+        <div class="merch-row"><span class="merch-label">Price + Value</span><span>EDLP pricing</span></div>
+        <div class="merch-row"><span class="merch-label">Bin Labels</span><span>Available via Trade Labels</span></div>
+    </div>
+
+    <!-- SALES POINTS -->
+    <div class="section-header">Why Your Retailers Need FDO</div>
+
+    <div class="sales-point">
+        <h3>The Tested Clean Advantage</h3>
+        <p>Independent lab testing shows 1 in 15 organic-certified products contain as much glyphosate as conventional products. FDO is independently tested to ensure pesticide levels are at least 90% lower than USDA organic limits and 99% lower than EPA standards. When your buyers ask "Is it really clean?" — FDO is the only brand that can prove it.</p>
+    </div>
+
+    <div class="sales-point">
+        <h3>The Only 100% Farmer-Owned Brand in the Category</h3>
+        <p>FDO is not owned by a corporation, a private equity fund, or a holding company. It is owned by the farmers who grow the grain. Fair prices for farmers. Uncompromising quality for consumers. A story that sells itself at the shelf.</p>
+    </div>
+
+    <div class="sales-point">
+        <h3>Full Traceability — Seed to Shelf</h3>
+        <p>Every bag of FDO product is traceable back to the exact family farm and harvest year. No other brand in the bulk category offers this level of transparency.</p>
+    </div>
+
+    <div class="sales-point">
+        <h3>Regenerative Organic Certified — Fastest-Growing Segment</h3>
+        <p>FDO is the world's largest supplier of Regenerative Organic Certified grains. Six of twelve SKUs carry ROC certification. Retailers who stock ROC now will own the premium position as the category grows.</p>
+    </div>
+
+    <div class="sales-point">
+        <h3>Proven Velocity — 100,000+ Units in First 2 Months at Whole Foods</h3>
+        <p>Farmer Direct Organic was the fastest selling independent brand launch in Whole Foods Market history. 2X expected sales rate.</p>
+    </div>
+
+    <!-- CTA -->
+    <div class="cta-box">
+        <h3>Ready to Upgrade Your Retailers' Bulk Aisle?</h3>
+        <p>Order through KeHE Distributors<br>Vendor ESN 2220136<br>
+        Contact: <a href="mailto:maryjo@farmerdirectorganic.com">maryjo@farmerdirectorganic.com</a></p>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer">
+        <span class="company">Farmer Direct Organic Ltd.</span><br>
+        4138-B Meadow Creek Rd, Celista, BC, V0E 1M6, Canada
+    </div>
+    <div class="updated-badge">Last updated: May 18, 2026</div>
+
+</div>
+
+</body>
+</html>
