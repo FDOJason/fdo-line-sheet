@@ -2,7 +2,8 @@
 
 **Site:** https://fdojason.github.io/fdo-line-sheet/
 **Repository:** `FDOJason/fdo-line-sheet`
-**Approved revision:** September 17, 2026
+**Current published revision:** September 18, 2026
+**Current PDF SHA-256:** `8fd0e77a35ca380594e0f21f8fa563e639ffcc7a0bee356215c125c72761afc7`
 
 ## Purpose
 
@@ -14,14 +15,14 @@ This repository publishes the mobile-optimized FDO KeHE 25 lb sales sheet reache
 fdo-line-sheet/
 ├── index.html
 ├── assets/
-│   ├── FDO_KeHE_25lb_Sales_Sheet_Approved_2026-09-17.pdf
+│   ├── KeHE_25lb.pdf
 │   ├── fdo-linesheet-qr-permanent.png
 │   └── fdo-logo.png
 ├── .github/workflows/static.yml
 └── README_FRANK_HANDOFF.md
 ```
 
-The previous May 2026 PDF and obsolete QR asset were removed from the live branch on September 17, 2026. Git history preserves prior revisions if restoration is ever required.
+The September 17 three-page PDF was replaced on September 18, 2026 by the corrected four-page version containing the Our Story. Our Farmers. page and the Jason Thon attribution. The live asset uses the short Windows-safe filename `KeHE_25lb.pdf`. Git history preserves prior revisions if restoration is ever required.
 
 ## Publishing workflow
 
