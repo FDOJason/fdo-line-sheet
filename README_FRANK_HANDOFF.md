@@ -2,8 +2,8 @@
 
 **Site:** https://fdojason.github.io/fdo-line-sheet/
 **Repository:** `FDOJason/fdo-line-sheet`
-**Current published revision:** September 19, 2026
-**Current PDF SHA-256:** `a1d4ac264b669e60ed99785bbf89a7f12e3304850d58fbfeae116e87b0cbbea4`
+**Current published revision:** September 20, 2026
+**Current PDF SHA-256:** `5c52e01623ecf4b85bac086f6fd953690b8cc193ad50d6c58a45faf3142ebb19`
 
 ## Purpose
 
@@ -22,7 +22,7 @@ fdo-line-sheet/
 └── README_FRANK_HANDOFF.md
 ```
 
-The September 17 three-page PDF was replaced on September 18, 2026 by the corrected four-page version containing the Our Story. Our Farmers. page and the Jason Thon attribution. On September 19, 2026, the page-three contact was updated to `jason@farmerdirectorganic.com` and `250-986-9718`, and the mobile webpage CTA was synchronized to the same contact. The live asset uses the short Windows-safe filename `KeHE_25lb.pdf`. Git history preserves prior revisions if restoration is ever required.
+The September 17 three-page PDF was replaced on September 18, 2026 by the corrected four-page version containing the Our Story. Our Farmers. page and the Jason Thon attribution. On September 19, 2026, the page-three contact was updated to `jason@farmerdirectorganic.com` and `250-986-9718`, and the mobile webpage CTA was synchronized to the same contact. On September 20, 2026, a fifth page was added with the four supplied FDO bulk-bin trade labels and the printable-copy and physical-label contact instructions. The live asset uses the short Windows-safe filename `KeHE_25lb.pdf`. Git history preserves prior revisions if restoration is ever required.
 
 ## Publishing workflow
 
